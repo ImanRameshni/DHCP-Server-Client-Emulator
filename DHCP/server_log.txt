@@ -1,0 +1,36 @@
+Status: DHCP Server is Listening (UDP)
+Default Gateway: 192.168.1.1
+Subnet Mask: 255.255.255.0
+DNS Server: 172.20.1.10
+IP Pool: 192.168.1.3 - 192.168.1.100
+Status: Waiting for Client Discovery
+Status: DHCP Discovery Message Received
+Status: Sending Offer Message
+Status: DHCP Request Message Received
+Status: Sending ACK Message
+Status: ACK Message Sent
+*****************************************************************
+Status: DHCP Server is Listening (UDP)
+Default Gateway: 192.168.1.1
+Subnet Mask: 255.255.255.0
+DNS Server: 172.20.1.10
+IP Pool: 192.168.1.3 - 192.168.1.100
+Status: Waiting for Client Discovery
+Status: DHCP Discovery Message Received
+Status: Sending Offer Message
+Status: DHCP Request Message Received
+Status: Sending NACK Message
+Status: NACK Message Sent
+*****************************************************************
+Status: DHCP Server is Listening (UDP)
+Default Gateway: 192.168.1.1
+Subnet Mask: 255.255.255.0
+DNS Server: 172.20.1.10
+IP Pool: 192.168.1.3 - 192.168.1.100
+Status: Waiting for Client Discovery
+Status: DHCP Discovery Message Received
+Status: Sending Offer Message
+Status: DHCP Request Message Received
+Status: Sending ACK Message
+Status: ACK Message Sent
+*****************************************************************

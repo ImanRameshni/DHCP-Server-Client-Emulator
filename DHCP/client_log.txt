@@ -1,0 +1,355 @@
+Status: Initial State
+IP: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Default Gateway: 0.0.0.0
+DNS Server: 0.0.0.0
+Status: DHCP Discovery
+DHCP Discovery Message: REQUEST 1 6 0 29139143219152623666279850577984576725 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPDISCOVER 0.0.0.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 0 0.0.0.0 0.0.0.0 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 29139143219152623666279850577984576725
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPDISCOVER
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Offer
+Status: Server Offer Received
+   From: ('169.254.241.220', 67)
+   Offer Message: REPLY 1 6 0 29139143219152623666279850577984576725 0 1 0.0.0.0 192.168.1.3 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPOFFER 255.255.255.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 29139143219152623666279850577984576725
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 192.168.1.3
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPOFFER
+    Subnet Mask: 255.255.255.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 192.168.1.1
+    DNS Server: 172.20.1.10
+*****************************************************************
+Status: DHCP Request
+DHCP Request Message: REQUEST 1 6 0 29218574364219249546987647038220229845 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPREQUEST 255.255.255.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 29218574364219249546987647038220229845
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPREQUEST
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Requested Address: 192.168.1.3
+    Server Identifier: 192.168.1.2
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Acknowledge
+Status: Server ACK Received
+    From: ('169.254.241.220', 67)
+    ACK Message: REPLY 1 6 0 29218574364219249546987647038220229845 0 1 0.0.0.0 192.168.1.4 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPACK 255.255.255.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 29218574364219249546987647038220229845
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 192.168.1.4
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPACK
+    Subnet Mask: 255.255.255.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 192.168.1.1
+    DNS Server: 172.20.1.10
+*****************************************************************
+Status: Final State (IP Acquired From DHCP Server)
+IP: 192.168.1.4
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.1.1
+DNS Server: 172.20.1.10
+*****************************************************************
+*****************************************************************
+Status: Initial State
+IP: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Default Gateway: 0.0.0.0
+DNS Server: 0.0.0.0
+Status: DHCP Discovery
+DHCP Discovery Message: REQUEST 1 6 0 52833658787474813920498205970908667093 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPDISCOVER 0.0.0.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 0 0.0.0.0 0.0.0.0 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 52833658787474813920498205970908667093
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPDISCOVER
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Offer
+Status: Server Offer Received
+   From: ('169.254.241.220', 67)
+   Offer Message: REPLY 1 6 0 52833658787474813920498205970908667093 0 1 0.0.0.0 192.168.1.3 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPOFFER 255.255.255.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 52833658787474813920498205970908667093
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 192.168.1.3
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPOFFER
+    Subnet Mask: 255.255.255.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 192.168.1.1
+    DNS Server: 172.20.1.10
+*****************************************************************
+Status: DHCP Request
+DHCP Request Message: REQUEST 1 6 0 52907936299026211934291335232668654805 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPREQUEST 255.255.255.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 52907936299026211934291335232668654805
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPREQUEST
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Requested Address: 192.168.1.3
+    Server Identifier: 192.168.1.2
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Acknowledge
+Status: Server ACK Received
+    From: ('169.254.241.220', 67)
+    ACK Message: REPLY 1 6 0 52907936299026211934291335232668654805 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPNACK 0.0.0.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 0.0.0.0 0.0.0.0 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 52907936299026211934291335232668654805
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPNACK
+    Subnet Mask: 0.0.0.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 0.0.0.0
+    DNS Server: 0.0.0.0
+*****************************************************************
+Status: Final State (IP Acquired From DHCP Server)
+Status:    NACK Received From DHCP Server
+IP: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Default Gateway: 0.0.0.0
+DNS Server: 0.0.0.0
+*****************************************************************
+*****************************************************************
+Status: Initial State
+IP: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Default Gateway: 0.0.0.0
+DNS Server: 0.0.0.0
+Status: DHCP Discovery
+DHCP Discovery Message: REQUEST 1 6 0 309259703812782177560543012782864162005 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPDISCOVER 0.0.0.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 0 0.0.0.0 0.0.0.0 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 309259703812782177560543012782864162005
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPDISCOVER
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Offer
+Status: Server Offer Received
+   From: ('192.168.126.1', 67)
+   Offer Message: REPLY 1 6 0 309259703812782177560543012782864162005 0 1 0.0.0.0 192.168.1.3 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPOFFER 255.255.255.0 28:d2:44:7d:5c:d5 0.0.0.0 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 309259703812782177560543012782864162005
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 192.168.1.3
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPOFFER
+    Subnet Mask: 255.255.255.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 192.168.1.1
+    DNS Server: 172.20.1.10
+*****************************************************************
+Status: DHCP Request
+DHCP Request Message: REQUEST 1 6 0 309336960303244111913217708639693659349 0 1 0.0.0.0 0.0.0.0 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPREQUEST 255.255.255.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REQUEST
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 309336960303244111913217708639693659349
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 0.0.0.0
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPREQUEST
+    Client Identifier: 28:d2:44:7d:5c:d5
+    Requested Address: 192.168.1.3
+    Server Identifier: 192.168.1.2
+    Host Name: DESKTOP-CLIPOR0
+    Parameter Request List: 0
+*****************************************************************
+Status: Wait For DHCP Server Acknowledge
+Status: Server ACK Received
+    From: ('192.168.126.1', 67)
+    ACK Message: REPLY 1 6 0 309336960303244111913217708639693659349 0 1 0.0.0.0 192.168.1.4 0.0.0.0 0.0.0.0 28:d2:44:7d:5c:d5 NoName NoFile DHCPACK 255.255.255.0 28:d2:44:7d:5c:d5 192.168.1.3 DESKTOP-CLIPOR0 0 192.168.1.2 192.168.1.1 172.20.1.10 0 0 0
+*****************************************************************
+Operation Code: REPLY
+Hardware Type: 1
+Oeration Address Length: 6
+Hops: 0
+Transaction ID: 309336960303244111913217708639693659349
+Seconds: 0
+Flags: 1
+Client IP Address (ciaddr): 0.0.0.0
+Your IP Address (yiaddr): 192.168.1.4
+Server IP Address (siaddr): 0.0.0.0
+Relay IP Address (giaddr): 0.0.0.0
+Client Ethernet Address (chaddr): 28:d2:44:7d:5c:d5
+Server Host Name: NoName
+Server File Name: NoFile
+OPTION FIELDS: 
+    DHCP Message Type: DHCPACK
+    Subnet Mask: 255.255.255.0
+    Renewal Time: 0
+    Rebinding Time: 0
+    Lease Time: 0
+    Server Identifier: 192.168.1.2
+    Router: 192.168.1.1
+    DNS Server: 172.20.1.10
+*****************************************************************
+Status: Final State (IP Acquired From DHCP Server)
+IP: 192.168.1.4
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.1.1
+DNS Server: 172.20.1.10
+*****************************************************************
+*****************************************************************
