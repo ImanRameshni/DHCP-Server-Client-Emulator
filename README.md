@@ -10,6 +10,6 @@
 </ul></br>
 <p>Used Packages:</p>
 <ul>
-  <li><a href="https://github.com/netaddr/netaddr">netaddr</a></li>
-  <li><a href="https://github.com/python/cpython/blob/master/Lib/uuid.py">uuid</a></li>
+  <li><a href="https://pypi.org/project/netaddr/">netaddr</a></li>
+  <li><a href="https://docs.python.org/3/library/uuid.html">uuid</a></li>
 </ul></br>
