@@ -13,8 +13,9 @@
   <li><a href="https://pypi.org/project/netaddr/">netaddr</a></li>
   <li><a href="https://docs.python.org/3/library/uuid.html">uuid</a></li>
 </ul></br>
-<p style="color:Tomato;">NOTE: for details on DHCP messages format and the steps of DHCP communication please read following log files after running the project:</p>
-<ul style="color:Tomato;">
+<h3>NOTE</h3>
+<p>for details on DHCP messages format and the steps of DHCP communication please read following log files after running the project:</p>
+<ul>
   <li>assigned_ip_addresses.txt</li>
   <li>client_log.txt</li>
   <li>server_log.txt</li>
