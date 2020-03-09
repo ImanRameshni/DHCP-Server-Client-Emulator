@@ -6,7 +6,7 @@
   <li>DHCP Request (Client Side)</li>
   <li>DHCP Offer (Server Side)</li>
   <li>DHCP Acknowledge (Server Side)</li>
-  <li>DHCP Nacknowledge (Server Side)</li>
+  <li>DHCP Nack (Server Side)</li>
 </ul></br>
 <p>Used Packages:</p>
 <ul>
